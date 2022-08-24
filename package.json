@@ -1,0 +1,18 @@
+{
+  "name": "@edqe/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Edqe14/eslint-config",
+  "author": "Edqe_ <34704796+Edqe14@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^4.7.4"
+  }
+}
