@@ -27,6 +27,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'object-curly-spacing': 'error',
     'class-methods-use-this': 'off',
+    'jsx-quotes': ['error', 'prefer-double'],
     'linebreak-style': ['error', 'unix'],
     '@typescript-eslint/semi': ['error'],
     '@typescript-eslint/indent': ['error', 2],
