@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 2019
+    ecmaVersion: 2019,
   },
   env: {
     es6: true,
@@ -14,7 +14,7 @@ module.exports = {
     'airbnb-base',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   rules: {
     semi: 'off',
@@ -27,12 +27,13 @@ module.exports = {
     'import/no-unresolved': 'off',
     'object-curly-spacing': 'error',
     'class-methods-use-this': 'off',
-    'jsx-quotes': ['error', 'prefer-double'],
+    'import/prefer-default-export': 'off',
     'linebreak-style': ['error', 'unix'],
     '@typescript-eslint/semi': ['error'],
+    'jsx-quotes': ['error', 'prefer-double'],
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/quotes': ['error', 'single'],
     '@typescript-eslint/member-delimiter-style': 'error',
-    '@typescript-eslint/explicit-module-boundary-types': 'off'
-  }
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+  },
 };
