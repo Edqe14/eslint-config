@@ -1,6 +1,6 @@
 {
   "name": "@edqe/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/Edqe14/eslint-config",
   "author": "Edqe_ <34704796+Edqe14@users.noreply.github.com>",
